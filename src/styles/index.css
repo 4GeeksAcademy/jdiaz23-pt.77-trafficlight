@@ -1,11 +1,66 @@
-/* 
+body {
+    background: linear-gradient( rgb(60, 171, 235), rgb(245, 245, 140), grey);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.trafficPole {
+    height: 100px;
+    width: 30px;
+    background: black;
+}
 
-*/
+.lightGroup {
+    width: 15rem;
+    background: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.red {
+    border-radius: 50%;
+    border: solid;
+    height: 200px;
+    background: red;
+
+}
+
+.yellow {
+    border-radius: 50%;
+    border: solid;
+    height: 200px;
+    background: yellow;
+
+}
+
+.green {
+    border-radius: 50%;
+    border: solid;
+    height: 200px;
+    background: green;
+
+}
+
+.activeRed {
+    box-shadow: 0 100px 60px red;
+    
+}
+
+.activeYellow {
+    box-shadow: 0 100px 60px yellow;
+}
+
+.activeGreen {
+    box-shadow: 0 100px 60px green;
+}
+
+.btn {
+    border-radius: 50%;
+    padding: 25%;
+}
+
+.buttonBox {
+    border: solid;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: 10%;
+    background: black;
+}
